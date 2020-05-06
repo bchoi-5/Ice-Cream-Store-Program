@@ -60,7 +60,6 @@
             this.txtTotal.ReadOnly = true;
             this.txtTotal.Size = new System.Drawing.Size(100, 20);
             this.txtTotal.TabIndex = 6;
-            this.txtTotal.Text = "1";
             // 
             // rbOneScoop
             // 

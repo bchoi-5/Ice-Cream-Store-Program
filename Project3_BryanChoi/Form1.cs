@@ -69,6 +69,7 @@ namespace Project3_BryanChoi
             if (rbOneScoop.Checked == true)
             {
                 scoopsTotal += oneScoop;
+                txtTotal.Text = scoopsTotal.ToString("c");
             }
         }
 
@@ -78,12 +79,12 @@ namespace Project3_BryanChoi
             {
                 scoopsTotal += oneScoop;
                 finalTotal = scoopsTotal + toppingsTotal;
-                txtTotal.Text = finalTotal.ToString();
+                txtTotal.Text = finalTotal.ToString("c");
             } else
             {
                 scoopsTotal -= oneScoop;
                 finalTotal = scoopsTotal + toppingsTotal;
-                txtTotal.Text = finalTotal.ToString();
+                txtTotal.Text = finalTotal.ToString("c");
             }
         }
 
@@ -93,12 +94,12 @@ namespace Project3_BryanChoi
             {
                 scoopsTotal += twoScoops;
                 finalTotal = scoopsTotal + toppingsTotal;
-                txtTotal.Text = finalTotal.ToString();
+                txtTotal.Text = finalTotal.ToString("c");
             } else
             {
                 scoopsTotal -= twoScoops;
                 finalTotal = scoopsTotal + toppingsTotal;
-                txtTotal.Text = finalTotal.ToString();
+                txtTotal.Text = finalTotal.ToString("c");
             }
         }
 
@@ -108,12 +109,12 @@ namespace Project3_BryanChoi
             {
                 scoopsTotal += threeScoops;
                 finalTotal = scoopsTotal + toppingsTotal;
-                txtTotal.Text = finalTotal.ToString();
+                txtTotal.Text = finalTotal.ToString("c");
             } else
             {
                 scoopsTotal -= threeScoops;
                 finalTotal = scoopsTotal + toppingsTotal;
-                txtTotal.Text = finalTotal.ToString();
+                txtTotal.Text = finalTotal.ToString("c");
             }
         }
 
@@ -123,12 +124,12 @@ namespace Project3_BryanChoi
             {
                 toppingsTotal += sprinkles;
                 finalTotal = toppingsTotal + scoopsTotal;
-                txtTotal.Text = finalTotal.ToString();
+                txtTotal.Text = finalTotal.ToString("c");
             } else
             {
                 toppingsTotal -= sprinkles;
                 finalTotal = toppingsTotal + scoopsTotal;
-                txtTotal.Text = finalTotal.ToString();
+                txtTotal.Text = finalTotal.ToString("c");
             }
         }
 
@@ -138,12 +139,12 @@ namespace Project3_BryanChoi
             {
                 toppingsTotal += oreos;
                 finalTotal = toppingsTotal + scoopsTotal;
-                txtTotal.Text = finalTotal.ToString();
+                txtTotal.Text = finalTotal.ToString("c");
             } else
             {
                 toppingsTotal -= oreos;
                 finalTotal = toppingsTotal + scoopsTotal;
-                txtTotal.Text = finalTotal.ToString();
+                txtTotal.Text = finalTotal.ToString("c");
             }
         }
 
@@ -153,12 +154,12 @@ namespace Project3_BryanChoi
             {
                 toppingsTotal += chocolateChips;
                 finalTotal = toppingsTotal + scoopsTotal;
-                txtTotal.Text = finalTotal.ToString();
+                txtTotal.Text = finalTotal.ToString("c");
             } else
             {
                 toppingsTotal -= chocolateChips;
                 finalTotal = toppingsTotal + scoopsTotal;
-                txtTotal.Text = finalTotal.ToString();
+                txtTotal.Text = finalTotal.ToString("c");
             }
         }
 
@@ -168,12 +169,12 @@ namespace Project3_BryanChoi
             {
                 toppingsTotal += cherrySyrup;
                 finalTotal = toppingsTotal + scoopsTotal;
-                txtTotal.Text = finalTotal.ToString();
+                txtTotal.Text = finalTotal.ToString("c");
             } else
             {
                 toppingsTotal -= cherrySyrup;
                 finalTotal = toppingsTotal + scoopsTotal;
-                txtTotal.Text = finalTotal.ToString();
+                txtTotal.Text = finalTotal.ToString("c");
             }
         }
 
@@ -183,12 +184,12 @@ namespace Project3_BryanChoi
             {
                 toppingsTotal += gummyWorms;
                 finalTotal = toppingsTotal + scoopsTotal;
-                txtTotal.Text = finalTotal.ToString();
+                txtTotal.Text = finalTotal.ToString("c");
             } else
             {
                 toppingsTotal -= gummyWorms;
                 finalTotal = toppingsTotal + scoopsTotal;
-                txtTotal.Text = finalTotal.ToString();
+                txtTotal.Text = finalTotal.ToString("c");
             }
         }
     }
