@@ -156,18 +156,40 @@ namespace Project3_BryanChoi
                 txtTotal.Text = finalTotal.ToString();
             } else
             {
-
+                toppingsTotal -= chocolateChips;
+                finalTotal = toppingsTotal + scoopsTotal;
+                txtTotal.Text = finalTotal.ToString();
             }
         }
 
         private void cbCherrySyrup_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (cbCherrySyrup.Checked == true)
+            {
+                toppingsTotal += cherrySyrup;
+                finalTotal = toppingsTotal + scoopsTotal;
+                txtTotal.Text = finalTotal.ToString();
+            } else
+            {
+                toppingsTotal -= cherrySyrup;
+                finalTotal = toppingsTotal + scoopsTotal;
+                txtTotal.Text = finalTotal.ToString();
+            }
         }
 
         private void cbGummyWorms_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (cbGummyWorms.Checked == true)
+            {
+                toppingsTotal += gummyWorms;
+                finalTotal = toppingsTotal + scoopsTotal;
+                txtTotal.Text = finalTotal.ToString();
+            } else
+            {
+                toppingsTotal -= gummyWorms;
+                finalTotal = toppingsTotal + scoopsTotal;
+                txtTotal.Text = finalTotal.ToString();
+            }
         }
     }
 }
