@@ -25,8 +25,7 @@ namespace Project3_BryanChoi
         private double scoopsTotal = 0.00;
         private double toppingsTotal = 0.00;
         private double finalTotal = 0.00;
-        //private double total = 0; -- need to add total from number of scoops & topping choices 
-        //to get final total
+
 
         public Form1()
         {
