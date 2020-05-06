@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Project3_BryanChoi
 {
-    //BRYAN CHOI - Project 3
+    //BRYAN CHOI - Project #3
     public partial class Form1 : Form
     {
         private double oneScoop = 1.00;
