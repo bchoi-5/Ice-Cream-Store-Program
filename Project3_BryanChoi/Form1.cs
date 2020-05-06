@@ -120,7 +120,6 @@ namespace Project3_BryanChoi
 
         private void cbSprinkles_CheckedChanged(object sender, EventArgs e)
         {
-            //double total = 0.00;
             if (cbSprinkles.Checked == true)
             {
                 toppingsTotal += sprinkles;
