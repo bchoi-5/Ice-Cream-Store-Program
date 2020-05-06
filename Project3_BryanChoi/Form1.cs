@@ -149,7 +149,15 @@ namespace Project3_BryanChoi
 
         private void cbChocolateChips_CheckedChanged(object sender, EventArgs e)
         {
+            if(cbChocolateChips.Checked == true)
+            {
+                toppingsTotal += chocolateChips;
+                finalTotal = toppingsTotal + scoopsTotal;
+                txtTotal.Text = finalTotal.ToString();
+            } else
+            {
 
+            }
         }
 
         private void cbCherrySyrup_CheckedChanged(object sender, EventArgs e)
